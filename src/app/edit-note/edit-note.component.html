@@ -1,0 +1,25 @@
+<div class="container py-5" >
+    <div class="row form-group ">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 ">
+            
+            <label for="" >Title:</label>
+            <input type="text" class="form-control bg-dark text-white" [(ngModel)]="title">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <label for="">Description:</label>
+            <!-- <input type="text" class="form-control" [(ngModel)]="description"> -->
+            <textarea  name="" id="" cols="39" rows="5" [(ngModel)]="description" class="form-control bg-dark text-white"></textarea>
+        </div>
+    </div>
+    <div class="row py-3">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 text-center">
+            <button (click)="onEdit()" class="btn btn-dark">Edit</button>
+        </div>
+    </div>
+    
+</div>
